@@ -1,0 +1,36 @@
+.gradient-box {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  max-width: 22em;
+  position: relative;
+  padding: 3em;
+  box-sizing: border-box;
+  color: #000;
+  background: #FFF8E7;
+  background-clip: padding-box; /* !important */
+  border: solid 5px transparent; /* !important */
+  border-radius: 1em;
+}
+
+.gradient-box:before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    border-radius: inherit; /* !importanté */
+    background: linear-gradient(to right, red, orange);
+  }
+
+.gradient-box:after {
+    content: '';
+    position: absolute;
+    top: 5px; right: 5px; bottom: 5px; left: 5px;
+    border-radius: inherit; /* !importanté */
+    background: linear-gradient(to right, red, orange);
+    background: #FFF8E7;
+  }
+
+p {
+   z-index:10;
+}
