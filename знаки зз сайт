@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <style>h1{text-align:center}
+body{background-color:black;}
+p{color:white;}
+h1{color:white;}
+h2{color:white;}
+details{color:white;}</style>
     <title>goroskop</title>
   <link rel="stylesheet" href="goroskop filtrs.css">
     <link rel="shortcut icon" href="icons8-космос-60.png" type="image/x-icon">
@@ -99,3 +105,4 @@
 <img src="ribi.jpg"  width="1000" alt="">
 </body>
 </html>
+
